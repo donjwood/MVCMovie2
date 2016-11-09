@@ -7,13 +7,13 @@ namespace MVCMovie2.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Initial : IMigrationMetadata
+    public sealed partial class DataAnnotations : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(DataAnnotations));
         
         string IMigrationMetadata.Id
         {
-            get { return "201611020224146_Initial"; }
+            get { return "201611090251462_DataAnnotations"; }
         }
         
         string IMigrationMetadata.Source
